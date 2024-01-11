@@ -1,0 +1,15 @@
+h1 {
+color: purple;
+font-size: 90px;
+}
+<html>
+<head>
+<title>styl zewnetrzne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- importowany -->
+<style>
+@import url("zawi_z5_1.css ");
+</style>
+</head>
+<body bgcolor="silver">
+<h1> importowany arkusz</h1>
