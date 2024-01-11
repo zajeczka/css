@@ -1,0 +1,38 @@
+p   {
+color : green;
+font-size: 20pt;
+}
+
+body   {
+color: blue;
+font-size: 30pt;
+}
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+
+<style>
+@import url("zawi_z6.css ");
+</style>
+</head>
+<body>
+<p> :P wytkniety jezyk </p>
+<br>
+<br>
+XD smianie sie
+<br>
+<br>
+ <p>  B) okulary </p>
+<br>
+<br>
+:) usmiechnieta buzka 
+<br>
+<br>
+<p> :( smutna buzka </p>
+<br>
+<br>
+>:( zdenerwowana buzka
+<br>
+<br>
+</body
+</html>
