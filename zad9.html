@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<ol type="I">
+<li><h1>Składnia teoretyczna</h1>
+</ol>
+<br>
+<p style="border-width:3px; border-style:solid; border-color:black; padding:1em">
+head
+(...)
+link rel="Stylesheet" type="text/css" href="style.css" />
+(...)
+/head
+</border>
+<br>
+<ol type="I">
+<li><h1>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz<br>
+<li> ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1>
+</ol>
+<br>
+<li>Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu.<br>
+ (sekcja <b>head</b> )<br>
+ <li>można dołączyć dowolną liczbę zewnętrznych arkuszy stylów<br>
+ - każdy jako osobny element link rel="Stylesheet" />.<br>
+<li> Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i<br>
+<li> edytowania wystarczy zwykły edytor tekst.<br>
+<li> Można się posłużyć specjalnym <b>edytorem CSS</b>.<br>
+<li> Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć rozszerzenie *.css<br>
+<ol type="I">
+<li><h1>Jak jest najprostsza forma wstawiania stylu zewnętrznego</h1>
+</ol>
+<br>
+<p style="border-width:3px; border-style:solid; border-color:black; padding:1em">
+<a>wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy<br>
+ znacznikami <head> a </head>), przedstawioną powyżej linijkę:</a>
+ </border>
+ <br>
+ <ol type="I">
+<li><h1>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad<br>
+ musi być zachowana przy większej ilości dołączanych styli?</h1>
+</ol>
+<a> można dolaczyc wiele arkuszy styli do <br>
+<li>jednego dokumentu HTML, ale wazne jest<br>
+<li>zachowanie kolejnosci deklaracji,poniewaz<br>
+<li>style z poznijeszych arkuszy moga<br>
+<li>nadpisac wczesniejsze.Zaleca sie aby <br>
+<li>uniknąć kontfliktow i utrzymania czytelnosci<br>
+<li>kodu.</a>
+<br>
+ <ol type="I">
+<li><h1>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style<br>
+ są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1>
+</ol>
+<br>
+<li>W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.
+<br>
+<ol type="I">
+<li><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1>
+</ol>
+

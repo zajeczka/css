@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<br>
+<ol type="I">
+ <li> <h1>gdzie jest wstawiany </h1>
+ </ol>
+ <li> <a>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami head a <br>
+ <li>/head). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu,<br>
+ <li>występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż<br>
+<li> domyślne).
+</li>
+<ol type="I">
+<li> <h1>składnia teoretyczna</h1>
+</ol>
+<p style="border-width:3px; border-style:solid; border-color:black; padding:1em">
+head<br>
+(...)<br>
+style type="text/css"><br>
+/* ![CDATA[ */<br>
+selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+(...)<br>
+/* ]]> */<br>
+/style<br>
+(...)<br>
+/head<br>
+</border>
+<br>
+<ol type="I">
+ <li> <h1>jakie mogą być selektory, </h1>
+ </ol>
+ <li>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka<br>
+ <li> tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi<br>
+<li> znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
+<br>
+<br>
+<ol type="I">
+<li> <h1>jakie mogą być cechy i wartości.</h1>
+</ol>
+<li>"cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty <br>
+<li>formatowania nam chodzi (opisane w kolejnych rozdziałach).<br>
+<li>Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.<br>
+<li>Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy <br>
+<li>rozdzielone średnikami.
+</body>
+</html>
+
