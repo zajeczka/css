@@ -1,0 +1,136 @@
+.nazwisko{
+    color:red;
+    font-size:1cm;
+    text-align:right;
+}
+
+.akapit{
+    color:blue;
+    font-size:20px;
+
+}
+
+p#akapit1_kruk{
+    text-align: right; 
+    font-family: Times, Times New Roman, serif;
+    color:#000080;
+    font-variant: small-caps;
+    text-decoration:overline;  
+}
+
+.zdanie1_1{
+    font-weight: 500;
+    text-align: right; 
+    font-family: Times, Times New Roman, serif;
+    font-variant: small-caps;
+    text-decoration:overline;  
+    font-size: small;
+    text-transform: uppercase;
+    text-indent: 28mm;
+    line-height:2cm;
+    word-spacing: 10px;
+    letter-spacing: 2ex;
+    font-style: oblique;
+    color:#000080;
+}
+
+.zdanie2_1{
+    font-weight:600;
+    text-align: right;
+    font-family: Times, Times New Roman, serif; 
+    font-variant: small-caps;
+    text-decoration:overline;  
+    font-size:medium;
+    text-indent: 28mm;
+    line-height:2cm;
+    word-spacing: 10px;
+    letter-spacing: 2ex;
+    text-transform: uppercase;
+    font-style: oblique;
+    color:#000080;
+}
+
+
+.zdanie3_1{
+    font-weight:700;
+    text-align: right; 
+    font-family: Times, Times New Roman, serif;
+    font-variant: small-caps;
+    text-decoration:overline;  
+    font-size:xx-large;
+    text-indent: 28mm ;
+    line-height:2cm;
+    word-spacing: 10px;
+    letter-spacing: 2ex;
+    text-transform: uppercase;
+    font-style: oblique;
+    color:#000080;
+}
+
+
+
+
+
+p#akapit2_kruk{
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    color:#000080;
+    font-variant: small-caps;
+    text-decoration:line-through;
+
+    
+}
+
+
+
+.zdanie1_2{
+    font-weight:300;
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    font-variant: small-caps;
+    text-decoration:line-through;  
+    font-size:25px;
+    text-indent: 3cm ;
+    line-height:20mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.25cm;
+    text-transform: capitalize;
+    font-style: italic;
+    color:#000080;
+}
+
+
+.zdanie2_2{
+    font-weight:600;
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    font-variant: small-caps;
+    text-decoration:line-through;  
+    font-size:1in;
+    text-indent: 3cm ;
+    line-height:20mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.25cm;
+    text-transform: capitalize;
+    font-style: italic;
+    color:#000080;
+
+}
+
+
+.zdanie3_2{
+    font-weight:900;
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    font-variant: small-caps;
+    text-decoration:line-through;  
+    font-size:2em;
+    text-indent: 3cm ;
+    line-height:20mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.25cm;
+    text-transform: capitalize;
+    font-style: italic;
+    color:#000080;
+
+}
