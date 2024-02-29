@@ -1,0 +1,30 @@
+p#pogrubienie_zawisza {
+color: rgb(128, 94, 211);
+font-size: 32 px;
+}
+
+ p#pochylona_zawisza {
+    
+    color: rgb(228, 144, 31);
+font-size: 37 cm;
+}
+p#index_gorny_zawisza {
+    color: rgb(148, 144, 31);
+    font-size: 4,2 cm;
+    
+    }
+p#index_dolny_zawisza {
+    color: rgb(148, 244, 231);
+    font-size: 4,9 cm;
+
+    }
+p#mono_zawisza {
+        color: rgb(20, 224, 111);
+        font-size: 42 px;  
+    }
+p#powiekszenie_zawisza {
+        color: rgb(78, 66, 161);
+    }
+p#pomniejszenie_zawisza {
+        color: rgb(178, 166, 61);
+    }

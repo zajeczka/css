@@ -1,0 +1,15 @@
+p {
+color: red;
+font-size: 22 pt;
+}
+
+ p#gruby_zawisza {
+    
+    color: green;
+font-size: 17 pt;
+}
+p#dlawszystkich_zawisza {
+    color: yellow;
+    font-size: 10 pt;
+    font-style: arial;
+    }
