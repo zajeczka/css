@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style>
+   .ex {
+    border: solid 1px #000000;
+    background: #fffff5;
+    font-family: "Courier New", Courier, monospace; 
+    padding: 7px;
+    font-size: 80%;
+    margin: 0 0 1em;
+   }
+  </style>
+ </head>
+ <body>
+   <p class="ex">
+    .nazwisko{</br>
+        color:red;</br>
+        font-size:1cm;</br>
+    }</br>
+</br>
+    .akapit{</br>
+        color:blue;</br>
+        font-size:20px;</br>
+    </br>
+    }</br>
+</br>
+    p#akapit1_kruk{</br>
+        text-align: right; </br>
+        font-family: Times, Times New Roman, serif;</br>
+        color:#000080;</br>
+        font-variant: small-caps;</br>
+        text-decoration:overline;  </br>
+    }</br>
+</br>
+    .zdanie1_1{</br>
+        font-weight: 500;</br>
+        text-align: right; </br>
+        font-family: Times, Times New Roman, serif;</br>
+        font-variant: small-caps;</br>
+        text-decoration:overline;  </br>
+        font-size: small;</br>
+        text-transform: uppercase;</br>
+        text-indent: 28mm;</br>
+        line-height:2cm;</br>
+        word-spacing: 10px;</br>
+        letter-spacing: 2ex;</br>
+        font-style: oblique;</br>
+    }</br>
+</br>
+    .zdanie2_1{</br>
+        font-weight:600;</br>
+        text-align: right;</br>
+        font-family: Times, Times New Roman, serif; </br>
+        font-variant: small-caps;</br>
+        text-decoration:overline; </br> 
+        font-size:medium;</br>
+        text-indent: 28mm;</br>
+        line-height:2cm;</br>
+        word-spacing: 10px;</br>
+        letter-spacing: 2ex;</br>
+        text-transform: uppercase;</br>
+        font-style: oblique;</br>
+    }
+    
+</br>
+    .zdanie3_1{</br>
+        font-weight:700;</br>
+        text-align: right; </br>
+        font-family: Times, Times New Roman, serif;</br>
+        font-variant: small-caps;</br>
+        text-decoration:overline; </br> 
+        font-size:xx-large;</br>
+        text-indent: 28mm ;</br>
+        line-height:2cm;</br>
+        word-spacing: 10px;</br>
+        letter-spacing: 2ex;</br>
+        text-transform: uppercase;</br>
+        font-style: oblique;</br>
+    }</br>
+    
+</br>
+</br>
+</br>
+    p#akapit2_kruk{</br>
+        text-align: center; </br>
+        font-family: Arial, sans-serif;</br>
+        color:#000080;</br>
+        font-variant: small-caps;</br>
+        text-decoration:line-through;</br>
+    </br>
+</br>
+    }</br>
+    
+    
+    
+    .zdanie1_2{</br>
+        font-weight:300;</br>
+        text-align: center; </br>
+        font-family: Arial, sans-serif;</br>
+        font-variant: small-caps;</br>
+        text-decoration:line-through;  </br>
+        font-size:25px;</br>
+        text-indent: 3cm ;</br>
+        line-height:20mm;</br>
+        word-spacing: 10pt;</br>
+        letter-spacing: 0.25cm;</br>
+        text-transform: capitalize;</br>
+        font-style: italic;</br>
+    </br>
+    }</br>
+    
+</br>
+    .zdanie2_2{</br>
+        font-weight:600;</br>
+        text-align: center; </br>
+        font-family: Arial, sans-serif;</br>
+        font-variant: small-caps;</br>
+        text-decoration:line-through; </br> 
+        font-size:1in;</br>
+        text-indent: 3cm ;</br>
+        line-height:20mm;</br>
+        word-spacing: 10pt;</br>
+        letter-spacing: 0.25cm;</br>
+        text-transform: capitalize;</br>
+        font-style: italic;</br>
+    
+    }</br>
+    
+    
+    .zdanie3_2{</br>
+        font-weight:900;</br>
+        text-align: center; </br>
+        font-family: Arial, sans-serif;</br>
+        font-variant: small-caps;</br>
+        text-decoration:line-through;  </br>
+        font-size:2em;</br>
+        text-indent: 3cm ;</br>
+        line-height:20mm;</br>
+        word-spacing: 10pt;</br>
+        letter-spacing: 0.25cm;</br>
+        text-transform: capitalize;</br>
+        font-style: italic;</br>
+    </br>
+    }</br>
+  </p>
+ </body>
+</html>
