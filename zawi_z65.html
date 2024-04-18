@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #pierwszy_zawisza{
+            width: 820pt;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: lightblue;
+            border-radius: 25px;
+            border: solid 5px navy ;
+        }
+        #drugi_zawisza{
+            width: 1020pt;
+            background-color: pink;
+            border-radius: 27px;
+            border: solid 3px black ; 
+        }
+        #trzeci_zawisza{
+            width: 1220pt;
+			 margin-left: auto;
+            margin-right: auto;
+           background-color: lightgreen;
+           border-radius: 31px;
+           border:  solid 7px purple;
+        }
+        p{
+            font-size: 10pt;
+        }
+        p:first-child{
+            font-size: 9mm;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="pierwszy_zawisza"><p>Pierwszy akapit/pierwszy DIV --&gt; Zawisza id="pierwszy_zawisza"</p>
+    <p>drugi akapit/pierwszy DIV<br>
+    pierwszy akapit --&gt; p:first-child{ font-size 9mm;font-style: italic}<br>
+    bo numer parzysty w dzienniku<br>
+    pozostałe akapity --&gt;p{font-size: 10pt;} bo numer parzysty<br>
+    szerokość bloku = 700 + 30*4 =820pt<br>
+    pierwszy DIV -- &gt; kolor lightblue DIV
+</p>
+    <p>
+    trzeci akapit/pierwszy DIV
+    pierwszy DIV--&gt;obramowanie granatowe DIV<br>
+    pierwszy DIV--&gt;obramowanie grubość 5px<br>
+    pierwszy DIV--&gt;r1=20mm+Jakub=25mm<br>
+
+</p>
+    </div>
+    <div id="drugi_zawisza" ><p>Pierwszy akapit/drugi DIV --&gt; Zawisza id="drugi_zawisza"</p>
+        <p>drugi akapit/drugi DIV<br>
+        drugi DIV --&gt; kolor pink
+        </p>
+    <p>
+        trzeci akapit/drugi DIV
+    pierwszy DIV--&gt;obramowanie rozowe DIV<br>
+    pierwszy DIV--&gt;obramowanie grubość 3px<br>
+    pierwszy DIV--&gt;r1=20mm+Zawisza=27mm<br>
+
+    </p>
+    </div>
+    <div id="trzeci_zawisza"><p>Pierwszy akapit/trzeci DIV --&gt; Zawisza id="drugi_zawisza"</p>
+        <p>drugi akapit/trzeci DIV<br>
+        drugi DIV --&gt; kolor lightgreen
+        </p>
+    <p>
+        trzeci akapit/trzeci DIV
+    pierwszy DIV--&gt;obramowanie lightgreen DIV<br>
+    pierwszy DIV--&gt;obramowanie grubość 7px<br>
+    pierwszy DIV--&gt;r1=20mm+listopad=31mm<br>
+
+    </p></div>
+</body>
+</html>

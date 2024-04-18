@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <ol type="1">
+        <li><p>tabelę zaokrąglenie narożników obszarów bloków np. DIV,
+        </p></li>
+        <li><p>zastosowanie oraz uwagi dotyczące zaokrąglania narożników,
+        </p></li>
+        <li><p>przykład z instrukcji</p></li>
+        <li><p>opis w jaki sposób centrujemy DIVy</p></li>
+    </ol>
+    <ol type="1" start="1">
+        <li>
+    <table>
+        <tr> 
+            <th><b>Zaokrąglenie narożników obszarów bloków np. DIV</b></th>
+        </tr>
+        <tr>
+            <td>
+                <p>Zaokrąglenie górnego-lewego
+                    narożnika:</p>
+            </td>
+            <td><p> selektor { border-top-left-radius: zaokrąglenie }
+            </p></td>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie górnego-prawego
+                narożnika:</td>
+            <td>selektor { border-top-right-radius: zaokrąglenie }
+            </td>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie dolnego-prawego
+                narożnika:</td>
+            <td>selektor { border-bottom-right-radius: zaokrąglenie }
+            </td>
+        </tr>
+        <Tr><td>Zaokrąglenie dolnego-lewego
+            narożnika:</td>
+        <td>selektor { border-bottom-left-radius: zaokrąglenie }
+        </td></Tr>
+        </table>    
+    </li>
+    <li>
+        <p>Zastosowanie:<br>
+            We wszystkich przypadkach selektorem może być dowolny znacznik, np. </p>
+            <ul style="list-style: disc;">
+                <li>p – akapit
+                </li>
+                <li> h1 –nagłówek</li>
+                <li>div –blok</li>
+            </ul>
+    </li>
+    <br>
+    <li>
+        <table>
+            <tr><td><p>border-top-right-radius: 10px</p></td></tr>
+        </table>
+    </li>
+    <li><p>W definicja CSS bloku DIV należy wpisać:</p>
+        <table><tr><td>margin-left: auto;<br>
+            margin-right: auto;</td></tr></table>
+    </li>
+        </ol>
+    </table>
+</body>
+</html>
